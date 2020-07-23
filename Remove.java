@@ -8,7 +8,7 @@ public class Remove
 	1.case 1: ABCD  => BCD ---- SUCCESS
 	2.case 2: AACD  => CD ------ SUCCESS
 	3.case 3: BACD  => BCD ---- SUCCESS
-                     4.case 4:BBAA   => BBAA -- SUCCESS
+        4.case 4:BBAA   => BBAA -- SUCCESS
 	5.case 5: AABAA => BAA --- SUCCESS	
 	*/
 	

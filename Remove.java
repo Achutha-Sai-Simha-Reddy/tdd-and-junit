@@ -53,7 +53,7 @@ public class Remove
 	@Test
 	public void testcase6()
 	{
-		Removefirstchars r=new Removefirstchars();
+		Removefirst r=new Removefirst();
 		String s=r.removing("A");
 		assertEquals("",s);
 	}
@@ -61,14 +61,14 @@ public class Remove
 	@Test
 	public void testcase7()
 	{
-		Removefirstchars r=new Removefirstchars();
+		Removefirst r=new Removefirst();
 		String s=r.removing("AA");
 		assertEquals("",s);
 	}
 	@Test
 	public void testcase8()
 	{
-		Removefirstchars r=new Removefirstchars();
+		Removefirst r=new Removefirst();
 		String s=r.removing("AB");
 		assertEquals("B",s);
 	}
